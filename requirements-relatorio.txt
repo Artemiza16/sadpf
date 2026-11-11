@@ -1,0 +1,7 @@
+# Só para gerar as figuras do relatório (gerar_relatorio.py). O painel não precisa disto.
+# O kaleido usa o Google Chrome ou o Chromium instalado no computador.
+kaleido>=1,<2
+# Para o documento de resultados em Word (gerar_resultados_tcc.py)
+python-docx>=1.1,<2
+# Exporta as figuras pelo Chrome instalado quando o kaleido não consegue abrir o navegador
+playwright>=1.45,<2

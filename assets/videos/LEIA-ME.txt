@@ -1,0 +1,10 @@
+Pasta dos vídeos da aba Tutoriais.
+
+Para publicar um vídeo:
+1. Salve o arquivo aqui (formato .mp4), por exemplo: 01-conhecendo-o-sadpf.mp4
+2. Em paginas/tutoriais.py, preencha o campo "video" do tutorial correspondente
+   com o nome do arquivo:  "video": "01-conhecendo-o-sadpf.mp4"
+   (ou com o endereço do YouTube, se o vídeo estiver publicado lá)
+
+Enquanto o campo "video" estiver vazio, a aba mostra o roteiro e o aviso
+"vídeo em produção".

@@ -1,0 +1,17 @@
+PASTA DOS SEUS DADOS
+
+O repositório não traz dados. Para usar o SADPF:
+
+1. Abra modelo_cotacao.xlsx. A aba "Cotação" tem as colunas que o sistema lê, e a
+   aba "Instruções" explica o que preencher em cada uma.
+2. Preencha uma linha por item de pedido (ou cole a exportação do seu portal de
+   cotações com o mesmo cabeçalho) e salve nesta pasta com o nome
+   cotacao_06_09.xlsx.
+3. Abra o painel. Na primeira vez, o sistema limpa a planilha pelas regras de
+   core/dados.py e cria base_consolidada.csv nesta pasta.
+
+Depois, cotações novas entram pela tela Base de Dados, que mostra uma prévia e
+guarda uma cópia da versão anterior.
+
+Nada que você colocar aqui vai para o GitHub: o .gitignore só deixa passar este
+arquivo e o modelo vazio.

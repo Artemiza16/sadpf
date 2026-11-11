@@ -1,0 +1,24 @@
+# DADOS: nunca vão para o GitHub. Só passam as instruções e o modelo vazio.
+dados/*
+!dados/LEIA-ME.txt
+!dados/modelo_cotacao.xlsx
+movimentacao/*
+!movimentacao/LEIA-ME.txt
+!movimentacao/*.py
+relatorio/
+relatorio_2/
+saidas/
+*.csv
+*.docx
+
+# Ambiente Python (recriado por INICIAR_SADPF.bat ou pip install -r requirements.txt)
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.tmp
+
+# Arquivos temporários do sistema e do Office
+.DS_Store
+Thumbs.db
+~$*

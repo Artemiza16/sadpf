@@ -1,0 +1,31 @@
+# Tema base do SADPF. As cores seguem a paleta de core/tema.py.
+# O azul substitui o vermelho padrão do Streamlit: no sistema, vermelho é
+# reservado para o nível "crítico" do apoio à decisão.
+
+[theme]
+base = "light"
+primaryColor = "#3A7CA8"
+backgroundColor = "#EDF1F6"
+secondaryBackgroundColor = "#F6F9FC"
+textColor = "#1A2733"
+borderColor = "#DCE4EC"
+font = "Inter, 'Segoe UI', sans-serif"
+
+[theme.sidebar]
+primaryColor = "#7FBEE3"
+backgroundColor = "#243342"
+secondaryBackgroundColor = "#2E4052"
+textColor = "#C3D2DE"
+borderColor = "#3A4E62"
+
+[client]
+toolbarMode = "viewer"
+
+[server]
+# serve a pasta static/ (fotos dos banners e da tela de entrada) como arquivos
+# comuns: o navegador baixa cada foto uma vez e guarda em cache, em vez de
+# receber a imagem inteira embutida no HTML a cada troca de página
+enableStaticServing = true
+
+[browser]
+gatherUsageStats = false

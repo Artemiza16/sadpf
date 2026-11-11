@@ -1,0 +1,11 @@
+LIVRO DE MOVIMENTAÇÃO (OPCIONAL)
+
+As telas Posição de Estoque, Reposição e Lotes e Validade e Remarcação precisam
+de um livro de movimentação: entradas, vendas e perdas por lote, num arquivo
+movimentacao_estoque.csv nesta pasta. O formato está na seção 9 da
+DOCUMENTACAO.md. Sem ele, o resto do painel funciona normalmente.
+
+Os scripts desta pasta (02_motor_estoque.py, 04_validacao.py e 09_figuras.py)
+são o gerador usado no TCC para simular as vendas a partir das compras.
+
+Nada que você colocar aqui vai para o GitHub, além deste arquivo e dos scripts.

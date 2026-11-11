@@ -1,0 +1,11 @@
+# Quebras de linha consistentes entre Windows, macOS e Linux
+* text=auto
+*.sh text eol=lf
+*.bat text eol=crlf
+
+# Arquivos binários: o Git não deve tentar comparar nem converter
+*.xlsx binary
+*.docx binary
+*.pdf binary
+*.png binary
+*.jpg binary

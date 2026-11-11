@@ -1,0 +1,8 @@
+# Faixas testadas com Python 3.12 (streamlit 1.64, pandas 3.0, numpy 2.5,
+# plotly 7.1, openpyxl 3.1). O limite superior evita que uma versão nova, com
+# mudanças incompatíveis, seja instalada sem aviso em outra máquina.
+streamlit>=1.64,<2
+pandas>=2.2,<4
+numpy>=1.26,<3
+plotly>=5.22,<8
+openpyxl>=3.1,<4
